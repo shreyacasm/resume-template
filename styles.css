@@ -63,17 +63,18 @@ border-radius: 9px;
 padding: 0px;
 background: lightgrey;
 }
+
 .meter > span {
 height: 18px;
 display:inline-block;
 position:relative;
-padding-bottom:2px;
 margin:0px;
 border-radius: 9px;
 color:white;
 text-align:center;
 background-color:teal;
-font-size:13px;
+font-size:10px;
+
 }
 .meter2 { 
 margin-top:5px;
@@ -123,4 +124,14 @@ color:lightgrey;
 }
 img{
 margin-bottom:10px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .col1{
+        width: 100%;
+    }
+    .col2{
+        width: 100%;
+        margin: auto;
+    }
 }
